@@ -1,0 +1,30 @@
+@font-face {
+    font-family: ComicBook;
+    src: url('../font/comic_book/Comic Book.otf');
+}
+@font-face {
+    font-family: Mask;
+    src: url('../font/masked_marvel/mask.ttf');
+}
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none!important;
+    color:#c20e1a!important;
+}
+p{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: ComicSansMS;
+    font-size: 18px;
+    position: relative;
+}
+.posrel{
+    position: relative;
+}
