@@ -204,6 +204,10 @@ body{
         left:5%;
         bottom:5%;
     }
+    .sec-6{
+        background:url('../images/4/4_backgroundkomikbiru.png') bottom left;
+        padding:20px 0;
+    }
 }
 
 @media only screen and (max-width: 480px) {
