@@ -128,6 +128,25 @@ body{
         bottom:5%;
         right:5%;
     }
+    .sec-3{
+        background:url('../images/21_backgroundkomikputih.png') bottom left;
+        padding:20px 0;
+    }
+    .funfact6{
+        width:200px;
+        left:5%;
+        top:30%;
+    }
+    .funfact7{
+        width:200px;
+        right:5%;
+        top:60%;
+    }
+    .funfact8{
+        width:200px;
+        left:5%;
+        bottom:10%;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -138,6 +157,11 @@ body{
 }
 .text{
     font-size:1.8vh;
+}
+.box-title-3{
+	font-family:ComicBook;
+	margin-bottom:0;
+    padding-bottom:20px;
 }
 .modal { max-width: 85% !important ; max-height: 85% !important ; width:95% !important; height: 95% !important; }
 .popup{
@@ -180,4 +204,22 @@ body{
     background:#183763;
     color:#FFF;
     font-family: ComicBook;
+}
+.box-chat{
+    padding:20px;
+    border:solid #000 4pt;
+    border-radius:5pt;
+    position: relative;
+}
+.box-arrow{
+    position: absolute;
+    top:10%;
+    left:-14.8%;
+    border-right:#ccc 4pt solid;
+}
+.stldmm{
+    padding-bottom:5%;
+}
+.box{
+    padding-bottom:20px;
 }
