@@ -35,6 +35,34 @@ body{
 .posabs{
     position: absolute;
 }
+.sec-1-body{
+    background-image: url('../images/1/1_backgroundkota.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-bottom:20px;
+}
+.sec-2{
+    background:#183763;
+    padding-bottom:20px;
+    padding-top:80px;
+}
+.sec-3{
+    background:url('../images/21_backgroundkomikputih.png') bottom left;
+    padding:20px 0;
+}
+.sec-4{
+    background:url('../images/4/4_backgroundkomikbiru.png') bottom left;
+    padding:20px 0;
+}
+.sec-5{
+    background:url('../images/21_backgroundkomikputih.png') bottom left;
+    padding:20px 0;
+}
+.sec-6{
+    background:url('../images/4/4_backgroundkomikbiru.png') bottom left;
+    padding:20px 0;
+}
 @media only screen and (min-width: 481px) {
     .sec-1{
         min-height: 750px;
@@ -42,45 +70,38 @@ body{
         background-size: 120%;
         background-position: top left;
     }   
-    .sec-1-body{
-        background-image: url('../images/1/1_backgroundkota.png');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: bottom left;
-        z-index: -1;
-        padding-bottom:20px;
-    }
     .hashtagstan{
         padding-top:3%;
         width:25%;
     }
     .thor{
-        
+        z-index:1;
         left:0px;
         top:5%;
     }
     .capt{
-        
+        z-index:1;
         left:5%;
         top:40%;
     }
     .spidey{
-        
+        z-index:1;
         left:30%;
         top:19%;
     }
     .hulk{
-        
+        z-index:1;
         right:0px;
         top:40%;
     }
     .wolve{
-        
+        z-index:1;
         right:0px;
         top:5%;
     }
     .gene{
-        z-index: 10000000000000px;
+        z-index: 2;
+        position: relative;
     }
     .funfact1{
         width:200px;;
@@ -112,11 +133,6 @@ body{
         right:-7%;
         top:0;
     }
-    .sec-2{
-        background:#183763;
-        padding-bottom:20px;
-        padding-top:80px;
-    }
     .funfact4{
         width:200px;
         left:5%;
@@ -126,10 +142,6 @@ body{
         width:200px;
         bottom:5%;
         right:5%;
-    }
-    .sec-3{
-        background:url('../images/21_backgroundkomikputih.png') bottom left;
-        padding:20px 0;
     }
     .funfact6{
         width:200px;
@@ -145,14 +157,6 @@ body{
         width:200px;
         left:5%;
         bottom:10%;
-    }
-    .sec-4{
-        background:url('../images/4/4_backgroundkomikbiru.png') bottom left;
-        padding:20px 0;
-    }
-    .sec-5{
-        background:url('../images/21_backgroundkomikputih.png') bottom left;
-        padding:20px 0;
     }
     .quotes1{
         top:0;left:0;
@@ -202,10 +206,6 @@ body{
         width:200px;
         left:5%;
         bottom:5%;
-    }
-    .sec-6{
-        background:url('../images/4/4_backgroundkomikbiru.png') bottom left;
-        padding:20px 0;
     }
 }
 
