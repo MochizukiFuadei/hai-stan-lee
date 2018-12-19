@@ -39,9 +39,8 @@ body{
     .sec-1{
         min-height: 750px;
         background-image: url('../images/1/1_backgroundjudulhitam.png');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: bottom left;
+        background-size: 120%;
+        background-position: top left;
     }   
     .sec-1-body{
         background-image: url('../images/1/1_backgroundkota.png');
@@ -52,7 +51,7 @@ body{
         padding-bottom:20px;
     }
     .hashtagstan{
-        margin-top:3%;
+        padding-top:3%;
         width:25%;
     }
     .thor{
