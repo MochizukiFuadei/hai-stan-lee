@@ -98,6 +98,36 @@ body{
         right:5%;
         bottom:10%;
     }
+    .logohai{
+        width:10%;
+        bottom:5%;
+        right:5%;
+    }
+    .spideyverse{
+        width:10%;
+        right:5%;
+        top:0;
+    }
+    .spideyverse2{
+        width:10%;
+        right:-7%;
+        top:0;
+    }
+    .sec-2{
+        background:#183763;
+        padding-bottom:20px;
+        padding-top:80px;
+    }
+    .funfact4{
+        width:200px;
+        left:5%;
+        top:30%;
+    }
+    .funfact5{
+        width:200px;
+        bottom:5%;
+        right:5%;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -108,4 +138,46 @@ body{
 }
 .text{
     font-size:1.8vh;
+}
+.modal { max-width: 85% !important ; max-height: 85% !important ; width:95% !important; height: 95% !important; }
+.popup{
+	background:url('../images/21_backgroundkomikputih.png') bottom left;
+	background-size:cover;
+    padding-bottom:20px;
+}
+.popup-emp{
+	font-family:ComicBook;
+	margin-bottom:0;
+    padding-bottom:0;
+}
+.popup-item p{
+	margin-top:1px;
+}
+.popup-item{
+	margin-bottom:10px;
+}
+.popup-logos{
+	width:150px;
+	max-width:20%;
+}
+.popup-body{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.popup-title{
+    font-size:8vh;
+    line-height: 6vh;
+    font-family:Mask;
+}
+.popup-caption{
+    font-family: ComicSansMS;
+    font-size:3vh;
+    margin-top:20px;
+}
+.popup-auth{
+    padding:10px;
+    background:#183763;
+    color:#FFF;
+    font-family: ComicBook;
 }
