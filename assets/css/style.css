@@ -3,6 +3,10 @@
     src: url('../font/comic_book/Comic Book.otf');
 }
 @font-face {
+    font-family: ComicSansMS;
+    src: url('../font/comic_book/Comic Sans MS.ttf');
+}
+@font-face {
     font-family: Mask;
     src: url('../font/masked_marvel/mask.ttf');
 }
@@ -27,4 +31,81 @@ body{
 }
 .posrel{
     position: relative;
+}
+.posabs{
+    position: absolute;
+}
+@media only screen and (min-width: 481px) {
+    .sec-1{
+        min-height: 750px;
+        background-image: url('../images/1/1_backgroundjudulhitam.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }   
+    .sec-1-body{
+        background-image: url('../images/1/1_backgroundkota.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        z-index: -1;
+        padding-bottom:20px;
+    }
+    .hashtagstan{
+        margin-top:3%;
+        width:25%;
+    }
+    .thor{
+        
+        left:0px;
+        top:5%;
+    }
+    .capt{
+        
+        left:5%;
+        top:40%;
+    }
+    .spidey{
+        
+        left:30%;
+        top:19%;
+    }
+    .hulk{
+        
+        right:0px;
+        top:40%;
+    }
+    .wolve{
+        
+        right:0px;
+        top:5%;
+    }
+    .gene{
+        z-index: 10000000000000px;
+    }
+    .funfact1{
+        width:200px;;
+        right:5%;
+        top:40%;
+    }
+    .funfact2{
+        width:200px;;
+        bottom:40%;
+        left:5%;
+    }
+    .funfact3{
+        width:200px;;
+        right:5%;
+        bottom:10%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+.intro{
+    font-size:2.5vh;
+}
+.text{
+    font-size:1.8vh;
 }
