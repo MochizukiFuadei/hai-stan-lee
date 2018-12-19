@@ -151,6 +151,59 @@ body{
         background:url('../images/4/4_backgroundkomikbiru.png') bottom left;
         padding:20px 0;
     }
+    .sec-5{
+        background:url('../images/21_backgroundkomikputih.png') bottom left;
+        padding:20px 0;
+    }
+    .quotes1{
+        top:0;left:0;
+    }
+    .quotes2{
+        float:right;
+        margin-top:-5%;
+    }
+    .quotes3{
+        float:left;
+        margin-top:-5%;
+    }
+    .quotes4{
+        float:right;
+        margin-top:-5%;
+    }
+    .quotes5{
+        float:left;
+        margin-top:-5%;
+    }
+    .quotes6{
+        float:right;
+        margin-top:0%;
+    }
+    .quotes7{
+        float:left;
+        margin-top:0;
+    }
+    .quotes8{
+        float:right;
+        margin-top:-5%;
+    }
+    .kutipbuka{
+        left:5%;
+        top:7%;
+    }
+    .kutiptutup{
+        right:3%;
+        bottom:8%;
+    }
+    .funfact9{
+        width:200px;
+        right:5%;
+        top:40%;
+    }
+    .funfact10{
+        width:200px;
+        left:5%;
+        bottom:5%;
+    }
 }
 
 @media only screen and (max-width: 480px) {
