@@ -210,7 +210,7 @@ body{
     .funfact10{
         width:250px;
         left:2%;
-        bottom:5%;
+        bottom:8%;
     }
     .popup-title{
         font-size:8vh;
@@ -532,6 +532,10 @@ body{
         line-height: 15pt;
         font-family:Mask;
     }
+}
+.gbye{
+    font-family:Mask;
+    font-size:4vh;
 }
 .img-responsive{
     max-width: 100%!important;
