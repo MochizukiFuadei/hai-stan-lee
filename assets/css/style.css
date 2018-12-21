@@ -517,6 +517,16 @@ body{
         position: absolute;
         bottom:5%;
     }
+    .kutipbuka{
+        left:5%;
+        top:7%;
+        width:50px;
+    }
+    .kutiptutup{
+        right:2%;
+        bottom:9%;
+        width:50px;
+    }
     .popup-title{
         font-size:20pt;
         line-height: 15pt;
