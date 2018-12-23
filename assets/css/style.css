@@ -127,6 +127,7 @@ body{
         width:10%;
         bottom:5%;
         right:5%;
+        z-index: 10;
     }
     .spideyverse{
         width:10%;
@@ -511,6 +512,7 @@ body{
         width:5%;
         bottom:1%;
         right:1%;
+        z-index: 10;
     }
     .gene{
         z-index: 2;
